@@ -42,5 +42,5 @@
 /* Space the three activity groups without changing the 16px type scale. */
 #programs .activity-groups>li+li{margin-top:calc(20px / var(--page-scale))}
 #programs .activity-groups>li>strong{display:block;margin-bottom:calc(8px / var(--page-scale))}
-/* Match the curriculum badge: same 16px type, 40px height, padding and radius. */
-#programs .program .badge{font-size:16px;line-height:24px;padding:8px 16px;border-radius:12px}
+/* Retain the curriculum badge geometry with a 14px audience label. */
+#programs .program .badge{font-size:14px;line-height:24px;padding:8px 16px;border-radius:12px}
