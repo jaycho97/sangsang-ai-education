@@ -34,7 +34,7 @@
 /* Requested type corrections: keep these at 16 viewport CSS pixels while
    the original desktop composition scales to the window width. */
 :root{--fixed-copy-16:calc(16px / var(--page-scale));--fixed-leading-24:calc(24px / var(--page-scale))}
-.hero h1{font-size:56px;line-height:1.3}.hero-eyebrow{font-size:18px;line-height:26px}.hero-description{font-size:18px;line-height:27px}.hero-actions .button{font-size:18px;line-height:27px;height:64px}.button-dark{width:176px}.button-outline{width:196px}
+.hero h1{font-size:48px;line-height:1.3}.hero-eyebrow{font-size:18px;line-height:26px}.hero-description{font-size:18px;line-height:27px}.hero-actions .button{font-size:18px;line-height:27px;height:64px}.button-dark{width:176px}.button-outline{width:196px}
 #curriculum .activity-box>ul,#curriculum .activity-box li,
 #programs .program-content>ul,#programs .program-content li,#programs .activity-groups strong,
 #programs .program .badge,
