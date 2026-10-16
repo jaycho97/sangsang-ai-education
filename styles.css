@@ -39,3 +39,6 @@
 #programs .program-content>ul,#programs .program-content li,#programs .activity-groups strong,
 #programs .program .badge,
 #faq .faq summary,#faq .faq-question,#faq .faq>div,#faq .faq>div p{font-size:var(--fixed-copy-16);line-height:var(--fixed-leading-24)}
+/* Space the three activity groups without changing the 16px type scale. */
+#programs .activity-groups>li+li{margin-top:calc(20px / var(--page-scale))}
+#programs .activity-groups>li>strong{display:block;margin-bottom:calc(8px / var(--page-scale))}
