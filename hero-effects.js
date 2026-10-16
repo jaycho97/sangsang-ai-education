@@ -81,8 +81,8 @@
         hero.style.setProperty("--hero-shift-y", `${pointer.y * 18}px`);
         hero.style.setProperty("--hero-rotate-x", `${pointer.y * -1.8}deg`);
         hero.style.setProperty("--hero-rotate-y", `${pointer.x * 2.4}deg`);
-        hero.style.setProperty("--hero-art-scale", `${1.018 + energy * .012}`);
-        hero.style.setProperty("--hero-art-saturation", `${1.03 + energy * .27}`);
+        hero.style.setProperty("--hero-art-scale", `${1 + energy * .012}`);
+        hero.style.setProperty("--hero-art-saturation", `${1 + energy * .27}`);
         hero.style.setProperty("--hero-art-brightness", `${1 + energy * .035}`);
       }
       ctx.setTransform(ratio, 0, 0, ratio, 0, 0);
@@ -219,6 +219,7 @@
       document.removeEventListener("visibilitychange", sync);
       motionQuery.removeEventListener("change", onMotionChange);
       window.removeEventListener("pagehide", cleanup);
+      window.removeEventListener("resize", resize);
     };
     hero.classList.add("hero-enhanced");
     hero.addEventListener("pointermove", onPointerMove, { passive: true });
@@ -228,6 +229,7 @@
     document.addEventListener("visibilitychange", sync);
     motionQuery.addEventListener("change", onMotionChange);
     window.addEventListener("pagehide", cleanup, { once: true });
+    window.addEventListener("resize", resize, { passive: true });
     observer.observe(hero); resizeObserver.observe(hero);
     startedAt = performance.now(); resize(); sync();
   }
