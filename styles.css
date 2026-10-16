@@ -42,3 +42,5 @@
 /* Space the three activity groups without changing the 16px type scale. */
 #programs .activity-groups>li+li{margin-top:calc(20px / var(--page-scale))}
 #programs .activity-groups>li>strong{display:block;margin-bottom:calc(8px / var(--page-scale))}
+/* Compact audience badges requested after the activity spacing adjustment. */
+#programs .program .badge{font-size:var(--fixed-copy-16);line-height:var(--fixed-leading-24);padding:4px 10px;border-radius:8px}
