@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="340" viewBox="0 0 560 340" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">데이터 분석</title>
+  <desc id="desc">막대 그래프와 연결된 데이터 점으로 구성한 분석 화면 일러스트</desc>
+  <defs>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" stroke="#DDEDF7" stroke-opacity=".58"/>
+    </pattern>
+    <filter id="shadow" x="-25%" y="-30%" width="165%" height="175%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="9" stdDeviation="12" flood-color="#446787" flood-opacity=".085"/>
+    </filter>
+  </defs>
+  <rect width="560" height="340" rx="22" fill="#F0F7FE"/>
+  <rect x="28" y="28" width="504" height="284" rx="16" fill="url(#grid)"/>
+  <circle cx="88" cy="246" r="36" fill="#E7EAFD"/>
+  <circle cx="469" cy="76" r="23" fill="#E4F0FC"/>
+  <g filter="url(#shadow)">
+    <rect x="81" y="48" width="394" height="241" rx="15" fill="white"/>
+    <rect x="81.5" y="48.5" width="393" height="240" rx="14.5" stroke="#DEEAF4"/>
+  </g>
+  <path d="M82 89H474" stroke="#EAF0F7"/>
+  <circle cx="103" cy="69" r="3.5" fill="#BEB2F4"/>
+  <circle cx="116" cy="69" r="3.5" fill="#D4CBF8"/>
+  <circle cx="129" cy="69" r="3.5" fill="#E3DDFB"/>
+  <rect x="160" y="65" width="126" height="7" rx="3.5" fill="#E7EBF4"/>
+  <rect x="408" y="61" width="42" height="15" rx="5" fill="#F3F0FE"/>
+  <path d="M129 126H437M129 165H437M129 204H437M129 243H437" stroke="#EDF1F8" stroke-dasharray="3 5"/>
+  <path d="M129 114V250H440" stroke="#D4DFED" stroke-width="1.5" stroke-linecap="round"/>
+  <rect x="156" y="191" width="29" height="58" rx="5" fill="#C1E4F7"/>
+  <rect x="206" y="169" width="29" height="80" rx="5" fill="#A6D8F2"/>
+  <rect x="256" y="181" width="29" height="68" rx="5" fill="#C5BCF4"/>
+  <rect x="306" y="147" width="29" height="102" rx="5" fill="#9FCFEF"/>
+  <rect x="356" y="131" width="29" height="118" rx="5" fill="#A69AEB"/>
+  <path d="M170 172L220 144L270 158L320 120L370 105" stroke="#7867E8" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="170" cy="172" r="4.5" fill="white" stroke="#7867E8" stroke-width="2.5"/>
+  <circle cx="220" cy="144" r="4.5" fill="white" stroke="#7867E8" stroke-width="2.5"/>
+  <circle cx="270" cy="158" r="4.5" fill="white" stroke="#7867E8" stroke-width="2.5"/>
+  <circle cx="320" cy="120" r="4.5" fill="white" stroke="#7867E8" stroke-width="2.5"/>
+  <circle cx="370" cy="105" r="4.5" fill="white" stroke="#7867E8" stroke-width="2.5"/>
+  <g filter="url(#shadow)">
+    <rect x="364" y="226" width="132" height="72" rx="12" fill="white"/>
+    <rect x="364.5" y="226.5" width="131" height="71" rx="11.5" stroke="#E2EAF5"/>
+  </g>
+  <rect x="380" y="242" width="66" height="6" rx="3" fill="#DDE5F1"/>
+  <rect x="380" y="256" width="47" height="10" rx="4" fill="#B9ABF0"/>
+  <path d="M452 270L460 259L468 263L481 246" stroke="#61B4E4" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M473 246H481V254" stroke="#61B4E4" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
