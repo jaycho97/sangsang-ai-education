@@ -1,0 +1,4 @@
+const tabs=[...document.querySelectorAll('.level-card')];
+function selectLevel(tab){tabs.forEach(item=>{const active=item===tab;item.setAttribute('aria-selected',String(active));item.tabIndex=active?0:-1;document.getElementById(item.getAttribute('aria-controls')).hidden=!active;});}
+tabs.forEach((tab,index)=>{tab.addEventListener('click',()=>selectLevel(tab));tab.addEventListener('keydown',event=>{let next;if(event.key==='ArrowRight')next=tabs[(index+1)%tabs.length];if(event.key==='ArrowLeft')next=tabs[(index+tabs.length-1)%tabs.length];if(event.key==='Home')next=tabs[0];if(event.key==='End')next=tabs.at(-1);if(next){event.preventDefault();selectLevel(next);next.focus();}});});
+const faq=document.querySelector('.faq details');faq.addEventListener('toggle',()=>faq.querySelector('summary b').textContent=faq.open?'−':'+');
