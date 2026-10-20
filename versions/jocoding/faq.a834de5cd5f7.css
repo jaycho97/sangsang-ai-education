@@ -1,0 +1,155 @@
+.jo-faq {
+  padding: 100px 0;
+  background: #fff;
+  color: #1d2433;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -.02em;
+}
+
+.jo-faq .jo-faq__inner {
+  width: min(960px, calc(100% - 64px));
+  margin: 0 auto;
+}
+
+.jo-faq .jo-faq__header {
+  margin-bottom: 44px;
+  text-align: center;
+}
+
+.jo-faq .jo-faq__title {
+  margin: 0;
+  color: #1d2433;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 46.8px;
+  letter-spacing: -.02em;
+}
+
+.jo-faq .jo-faq__subtitle {
+  margin: 16px 0 0;
+  color: #697586;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -.02em;
+}
+
+.jo-faq .jo-faq__list {
+  border-top: 1px solid #e2e6ed;
+}
+
+.jo-faq .jo-faq__item {
+  margin: 0;
+  border-bottom: 1px solid #e2e6ed;
+  background: #fff;
+}
+
+.jo-faq .jo-faq__question {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  margin: 0;
+  padding: 24px;
+  color: #263142;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -.02em;
+  list-style: none;
+  cursor: pointer;
+}
+
+.jo-faq .jo-faq__question::-webkit-details-marker {
+  display: none;
+}
+
+.jo-faq .jo-faq__question::marker {
+  content: "";
+}
+
+.jo-faq .jo-faq__question:focus-visible {
+  outline: 2px solid #2d64fa;
+  outline-offset: -2px;
+}
+
+.jo-faq .jo-faq__item[open] > .jo-faq__question {
+  color: #2d64fa;
+}
+
+.jo-faq .jo-faq__icon {
+  position: relative;
+  display: block;
+  flex: 0 0 26px;
+  width: 26px;
+  height: 26px;
+  border-radius: 6px;
+  background: #edf3ff;
+}
+
+.jo-faq .jo-faq__icon::before,
+.jo-faq .jo-faq__icon::after {
+  position: absolute;
+  top: 12px;
+  left: 7px;
+  width: 12px;
+  height: 2px;
+  border-radius: 1px;
+  background: #2d64fa;
+  content: "";
+}
+
+.jo-faq .jo-faq__icon::after {
+  transform: rotate(90deg);
+}
+
+.jo-faq .jo-faq__item[open] .jo-faq__icon::after {
+  display: none;
+}
+
+.jo-faq .jo-faq__answer {
+  padding: 0 74px 24px 24px;
+  color: #697586;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -.02em;
+}
+
+.jo-faq .jo-faq__answer p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -.02em;
+}
+
+.jo-faq .jo-faq__answer p + p {
+  margin-top: 12px;
+}
+
+.jo-faq .jo-faq__contact {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 16px;
+  color: #2d64fa;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -.02em;
+  text-decoration: none;
+}
+
+.jo-faq .jo-faq__contact:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.jo-faq .jo-faq__contact:focus-visible {
+  outline: 2px solid #2d64fa;
+  outline-offset: 4px;
+}

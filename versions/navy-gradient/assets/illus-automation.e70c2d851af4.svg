@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="340" viewBox="0 0 560 340" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">연결된 업무자동화</title>
+  <desc id="desc">입력 문서, 처리, 완료가 화살표로 이어지는 세 단계 업무 흐름 일러스트</desc>
+  <defs>
+    <linearGradient id="automation-background-gradient" x1="0" y1="0" x2="560" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F3F7FC"/>
+      <stop offset="1" stop-color="#E5EEF8"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" stroke="#E3EBF5" stroke-opacity=".55"/>
+    </pattern>
+    <filter id="panel-shadow" x="-25%" y="-30%" width="160%" height="180%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="9" stdDeviation="12" flood-color="#142b4a" flood-opacity=".075"/>
+    </filter>
+    <filter id="node-shadow" x="-40%" y="-35%" width="180%" height="190%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="6" stdDeviation="7" flood-color="#142b4a" flood-opacity=".08"/>
+    </filter>
+  </defs>
+  <rect width="560" height="340" rx="22" fill="url(#automation-background-gradient)"/>
+  <rect x="28" y="28" width="504" height="284" rx="16" fill="url(#grid)"/>
+  <circle cx="464" cy="258" r="33" fill="#E5F2FC"/>
+  <circle cx="77" cy="87" r="25" fill="#EDF3FA"/>
+  <g filter="url(#panel-shadow)">
+    <rect x="48" y="58" width="464" height="225" rx="16" fill="white"/>
+    <rect x="48.5" y="58.5" width="463" height="224" rx="15.5" stroke="#E3EBF5"/>
+  </g>
+  <path d="M49 101H511" stroke="#E3EBF5"/>
+  <circle cx="71" cy="79" r="3.5" fill="#7293b3"/>
+  <circle cx="84" cy="79" r="3.5" fill="#D5E2F2"/>
+  <circle cx="97" cy="79" r="3.5" fill="#D5E2F2"/>
+  <rect x="125" y="75" width="131" height="7" rx="3.5" fill="#D5E2F2"/>
+  <rect x="437" y="72" width="48" height="16" rx="5" fill="#EFF7FD"/>
+  <path d="M188 174H231M331 174H374" stroke="#7293b3" stroke-width="2" stroke-linecap="round"/>
+  <path d="M222 168L230 174L222 180M365 168L373 174L365 180" stroke="#3f6489" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <g filter="url(#node-shadow)">
+    <rect x="88" y="129" width="100" height="91" rx="12" fill="white"/>
+    <rect x="88.5" y="129.5" width="99" height="90" rx="11.5" stroke="#E3EBF5"/>
+    <rect x="231" y="129" width="100" height="91" rx="12" fill="white"/>
+    <rect x="231.5" y="129.5" width="99" height="90" rx="11.5" stroke="#E3EBF5"/>
+    <rect x="374" y="129" width="100" height="91" rx="12" fill="white"/>
+    <rect x="374.5" y="129.5" width="99" height="90" rx="11.5" stroke="#E3EDF5"/>
+  </g>
+  <rect x="119" y="143" width="38" height="38" rx="10" fill="#EDF3FA"/>
+  <path d="M131 151H141L146 156V174H131V151Z" stroke="#142b4a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M141 151V157H146M135 162H142M135 167H141" stroke="#142b4a" stroke-width="1.8" stroke-linecap="round"/>
+  <rect x="112" y="195" width="52" height="5" rx="2.5" fill="#D5E2F2"/>
+  <rect x="262" y="143" width="38" height="38" rx="10" fill="#EDF3FA"/>
+  <path d="M274 156H290M271 163H287M274 170H290" stroke="#142b4a" stroke-width="1.8" stroke-linecap="round"/>
+  <circle cx="278" cy="156" r="3" fill="white" stroke="#142b4a" stroke-width="1.8"/>
+  <circle cx="284" cy="163" r="3" fill="white" stroke="#142b4a" stroke-width="1.8"/>
+  <circle cx="279" cy="170" r="3" fill="white" stroke="#142b4a" stroke-width="1.8"/>
+  <rect x="255" y="195" width="52" height="5" rx="2.5" fill="#D5E2F2"/>
+  <rect x="405" y="143" width="38" height="38" rx="10" fill="#EAF6FD"/>
+  <circle cx="424" cy="162" r="11" stroke="#61B4E4" stroke-width="1.8"/>
+  <path d="M419 162L422.5 165.5L429 158.5" stroke="#61B4E4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="398" y="195" width="52" height="5" rx="2.5" fill="#DCECF5"/>
+  <circle cx="138" cy="242" r="3" fill="#D5E2F2"/>
+  <path d="M151 242H260" stroke="#E3EBF5" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="281" cy="242" r="3" fill="#D5E2F2"/>
+  <path d="M294 242H402" stroke="#E3EBF5" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="424" cy="242" r="3" fill="#B7DDF1"/>
+</svg>

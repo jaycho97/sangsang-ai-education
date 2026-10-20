@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="340" viewBox="0 0 560 340" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">문서 질문과 요약</title>
+  <desc id="desc">질문 말풍선, 문서 카드, 요약 카드로 표현한 문서 활용 일러스트</desc>
+  <defs>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" stroke="#E9E3F5" stroke-opacity=".55"/>
+    </pattern>
+    <filter id="shadow" x="-35%" y="-25%" width="175%" height="175%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="9" stdDeviation="11" flood-color="#6855AA" flood-opacity=".09"/>
+    </filter>
+  </defs>
+  <rect width="560" height="340" rx="22" fill="#F5F2FD"/>
+  <rect x="28" y="28" width="504" height="284" rx="16" fill="url(#grid)"/>
+  <circle cx="436" cy="83" r="38" fill="#EAF5FD"/>
+  <circle cx="89" cy="267" r="23" fill="#EAE3FC"/>
+  <g filter="url(#shadow)">
+    <rect x="153" y="47" width="245" height="244" rx="15" fill="white"/>
+    <rect x="153.5" y="47.5" width="244" height="243" rx="14.5" stroke="#E8E2F3"/>
+  </g>
+  <rect x="180" y="74" width="34" height="34" rx="9" fill="#EFEAFE"/>
+  <path d="M190 83H200L205 88V100H190V83Z" stroke="#7867E8" stroke-width="1.7" stroke-linejoin="round"/>
+  <path d="M200 83V89H205M194 93H201M194 97H199" stroke="#7867E8" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="226" y="81" width="116" height="8" rx="4" fill="#C2B7F5"/>
+  <rect x="226" y="97" width="78" height="5" rx="2.5" fill="#E7E3F0"/>
+  <path d="M180 126H371" stroke="#F0ECF6"/>
+  <rect x="181" y="144" width="189" height="6" rx="3" fill="#E2DDEB"/>
+  <rect x="181" y="159" width="176" height="6" rx="3" fill="#E2DDEB"/>
+  <rect x="181" y="174" width="136" height="6" rx="3" fill="#E2DDEB"/>
+  <rect x="174" y="194" width="202" height="31" rx="7" fill="#F1EEFF"/>
+  <rect x="184" y="207" width="124" height="5" rx="2.5" fill="#B5A7F1"/>
+  <rect x="181" y="239" width="151" height="6" rx="3" fill="#E2DDEB"/>
+  <rect x="181" y="254" width="111" height="6" rx="3" fill="#E2DDEB"/>
+  <g filter="url(#shadow)">
+    <path d="M70 89C70 82.4 75.4 77 82 77H153C159.6 77 165 82.4 165 89V140C165 146.6 159.6 152 153 152H137L122 167V152H82C75.4 152 70 146.6 70 140V89Z" fill="#7867E8"/>
+  </g>
+  <path d="M109 105C109 100.6 112.5 97 117.5 97C122.8 97 126 100.2 126 104.5C126 108 123.7 109.8 120.7 111.6C118.4 113 117.5 114.5 117.5 117" stroke="white" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="117.5" cy="126" r="2" fill="white"/>
+  <g filter="url(#shadow)">
+    <rect x="339" y="202" width="154" height="88" rx="13" fill="white"/>
+    <rect x="339.5" y="202.5" width="153" height="87" rx="12.5" stroke="#E3EDF5"/>
+  </g>
+  <circle cx="362" cy="227" r="10" fill="#E9F6FD"/>
+  <path d="M358 227L361 230L367 224" stroke="#61B4E4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="381" y="222" width="83" height="7" rx="3.5" fill="#A5D5EF"/>
+  <rect x="355" y="249" width="120" height="5" rx="2.5" fill="#DEEAF2"/>
+  <rect x="355" y="262" width="98" height="5" rx="2.5" fill="#DEEAF2"/>
+  <path d="M410 177V190" stroke="#B8AADF" stroke-width="2" stroke-linecap="round" stroke-dasharray="3 5"/>
+  <circle cx="410" cy="169" r="4" fill="#D4CAEF"/>
+</svg>

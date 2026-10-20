@@ -1,0 +1,205 @@
+.alli-faq {
+  padding: 80px 0;
+  background: #f7f8f5;
+  color: #344153;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -.02em;
+}
+
+.alli-faq .alli-faq__inner {
+  width: min(1000px, calc(100% - 80px));
+  margin: 0 auto;
+}
+
+.alli-faq .alli-faq__header {
+  margin-bottom: 36px;
+  text-align: center;
+}
+
+.alli-faq .alli-faq__label {
+  margin: 0 0 12px;
+  color: #75808b;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: .16em;
+}
+
+.alli-faq .alli-faq__title {
+  margin: 0;
+  color: #142b4a;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 41.6px;
+  letter-spacing: -.02em;
+}
+
+.alli-faq .alli-faq__list {
+  border-top: 1px solid #dde3e9;
+}
+
+.alli-faq .alli-faq__item {
+  margin: 0;
+  border-bottom: 1px solid #dde3e9;
+  background: #f7f8f5;
+}
+
+.alli-faq .alli-faq__question {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  margin: 0;
+  padding: 20px;
+  color: #46515e;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -.02em;
+  list-style: none;
+  cursor: pointer;
+}
+
+.alli-faq .alli-faq__question::-webkit-details-marker {
+  display: none;
+}
+
+.alli-faq .alli-faq__question::marker {
+  content: "";
+}
+
+.alli-faq .alli-faq__question:focus-visible {
+  outline: 2px solid #142b4a;
+  outline-offset: -2px;
+}
+
+.alli-faq .alli-faq__item[open] > .alli-faq__question {
+  color: #142b4a;
+}
+
+.alli-faq .alli-faq__icon {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  flex: 0 0 24px;
+  width: 24px;
+  height: 24px;
+  border: 1px solid #cbd4df;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.alli-faq .alli-faq__icon::before,
+.alli-faq .alli-faq__icon::after {
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  width: 12px;
+  height: 2px;
+  border-radius: 1px;
+  background: #142b4a;
+  content: "";
+}
+
+.alli-faq .alli-faq__icon::after {
+  transform: rotate(90deg);
+}
+
+.alli-faq .alli-faq__item[open] .alli-faq__icon {
+  border-color: #142b4a;
+  background: #142b4a;
+}
+
+.alli-faq .alli-faq__item[open] .alli-faq__icon::before {
+  background: #fff;
+}
+
+.alli-faq .alli-faq__item[open] .alli-faq__icon::after {
+  display: none;
+}
+
+.alli-faq .alli-faq__answer {
+  padding: 20px 68px 22px 20px;
+  background: #fff;
+  color: #66727f;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -.02em;
+}
+
+.alli-faq .alli-faq__answer p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -.02em;
+}
+
+.alli-faq .alli-faq__answer p + p {
+  margin-top: 12px;
+}
+
+.alli-faq .alli-faq__flow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px 20px;
+  margin: 0 0 18px;
+  padding: 0;
+  color: #344c68;
+  list-style: none;
+}
+
+.alli-faq .alli-faq__flow li {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -.02em;
+}
+
+.alli-faq .alli-faq__flow li:not(:last-child)::after {
+  margin-left: 9px;
+  color: #a1adb9;
+  content: "→";
+}
+
+.alli-faq .alli-faq__step {
+  color: #8a98a8;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.alli-faq .alli-faq__contact {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 16px;
+  color: #142b4a;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -.02em;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.alli-faq .alli-faq__contact:focus-visible {
+  outline: 2px solid #142b4a;
+  outline-offset: 4px;
+}
+
+.alli-faq .alli-faq__question,
+.alli-faq .alli-faq__answer p {
+  word-break: keep-all;
+  overflow-wrap: break-word;
+  text-wrap: pretty;
+}
